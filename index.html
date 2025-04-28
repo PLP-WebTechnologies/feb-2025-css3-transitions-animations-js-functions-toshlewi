@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tosh Auto Hub - Premium Vehicles</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+  </head>
+  <body>
+    <header class="header">
+      
+        <h1>Tosh Auto Hub</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#" class="nav-link">Inventory</a></li>
+          <li><a href="#" class="nav-link">Services</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content slide-in">
+          <h2>Premium Vehicles for Discerning Drivers</h2>
+          <p>
+            Experience luxury redefined with our curated collection of
+            high-performance automobiles.
+          </p>
+          <button id="explore-btn" class="btn-glow">Explore Inventory</button>
+        </div>
+      </section>
+
+      <section class="featured">
+        <h2>Featured Vehicles</h2>
+        <div class="car-grid">
+          <div class="car-card" data-car-id="1">
+            <img
+              src="images/luxurysedan.jpg"
+              alt="Luxury Sedan"
+              class="car-image zoom"
+            />
+            <h3>Executive Sedan</h3>
+            <p>Starting at $65,000</p>
+            <button class="btn-details">View Details</button>
+          </div>
+          <div class="car-card" data-car-id="2">
+            <img src="images/sportscar.jpg" alt="Sports Car" class="car-image zoom" />
+            <h3>Performance Coupe</h3>
+            <p>Starting at $89,000</p>
+            <button class="btn-details">View Details</button>
+          </div>
+          <div class="car-card" data-car-id="3">
+            <img src="images/suv.jpg" alt="SUV" class="car-image zoom" />
+            <h3>Luxury SUV</h3>
+            <p>Starting at $72,000</p>
+            <button class="btn-details">View Details</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="preferences">
+        <h2>Your Preferences</h2>
+        <div class="pref-form">
+          <label for="theme">Theme Preference:</label>
+          <select id="theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="blue">Blue</option>
+          </select>
+          <button id="save-pref" class="btn-pulse">Save Preferences</button>
+        </div>
+        <div id="pref-status" class="status-message"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2023 Tosh Auto Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
